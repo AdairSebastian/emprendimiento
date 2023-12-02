@@ -1,0 +1,124 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgEM{
+    position: relative;
+    left: 100px;
+}
+
+.MenuP{
+    background-color: #863232;
+    overflow: hidden;
+    text-align: center;
+    width:1750px;
+    height: 40px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+    padding: 10px 20px;
+    color: rgb(107, 106, 106);
+    transition: transform 0.5s;
+}
+
+.MenuP a{
+    color: rgb(209, 206, 206);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MenuP a:hover{
+    background-color: #9e5252;
+    transform: scale(1.2);
+}
+
+
+.Servicios{
+    position: relative;
+    left: 3%;
+    top: 0;
+    width: 980px;
+}
+
+.box {
+   
+    text-align: center;
+    width: 120px;
+    height: 100px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin: 10px;
+    transition: background-color 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    color: black;
+    padding: 5px;
+    position: relative;
+}
+
+.box:hover {
+    background-color: rgb(131, 47, 47);
+    color: white;
+}
+
+.sep{
+width: 400px;
+position: relative;
+left: -130px;
+margin-left: 130px;
+}
+
+.cont{
+position: relative;
+left: 4%;
+top: 30px;
+}
+
+.prim{
+display: flex; flex-wrap: wrap; width: 340px;
+}
+
+.slider{
+    width: 850PX;
+    height: 500PX;
+    overflow: hidden;
+    position:absolute;
+    bottom: 50px;
+    left: 600px;
+  }
+  .slider ul{
+      display: flex;
+      animation: cambio 20s infinite alternate linear;
+      width: 500PX;
+  }
+  .slider li{
+      width: 850PX;
+      list-style: none;
+  }
+  .slider img{
+      width: 850PX;
+      height: 500PX;
+  }
+  @keyframes cambio{
+      0%{margin-left: 0;}
+      20%{margin-left: 0;}
+      
+      25%{margin-left: -100%;}
+      45%{margin-left: -100%;}
+      
+      50%{margin-left: -200%;}
+      70%{margin-left: -200%;}
+      
+      75%{margin-left: -300%;}
+      100%{margin-left: -300%;}
+  }
+  @media only screen and (min-width:320px) and (max-width:768px){
+  .slider, .slider ul, .slider img{
+      height: 100vh;
+  }
+  }
+

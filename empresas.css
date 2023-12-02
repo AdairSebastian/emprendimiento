@@ -1,0 +1,129 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgEM{
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+}
+
+.MenuP{
+    background-color: #863232;
+    overflow: hidden;
+    text-align: center;
+    width:1750px;
+    height: 40px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+    padding: 10px 20px;
+    color: rgb(107, 106, 106);
+    transition: transform 0.5s;
+}
+
+.MenuP a{
+    color: rgb(209, 206, 206);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MenuP a:hover{
+    background-color: #9e5252;
+    transform: scale(1.2);
+}
+
+.logo{
+
+    height: 100%;
+    width: 200px;
+    position: relative;
+  
+}
+
+.logo img{
+
+    height: 100px;
+    width: 550px;
+    position: relative;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 20px;
+    padding-left: 15%;
+    padding-right: 5%;
+    font-weight: bold;
+    color: white;
+
+}
+
+nav a{
+    color: white;
+}
+
+nav ul li{
+    display: inline-block;
+    padding: 0px 70px;
+    background-color: red;
+}
+
+.titu{
+    display: flex;
+    position: relative;
+    top:30px;
+    justify-content: center;
+}
+
+.bloque_1{
+    display: inline-block;
+    position: relative;
+    top:50px;
+    left: 400px;
+    font-size: 16pt;
+    width: 400px;
+    height: 600px;
+
+}
+
+.empresas {
+    width: 350px;
+    border-collapse: collapse; 
+}
+
+.empresas tr:nth-child(even) {
+    background-color: #ffffff; 
+}
+
+.empresas a {
+    text-decoration: none;
+    color: black;
+}
+
+.empresas td {
+    padding: 8px; /* Agrega relleno alrededor del texto dentro de las celdas */
+}
+
+a{
+    text-decoration: none;
+    color: rgb(255, 0, 0);
+}
+
+span{
+    position: relative;
+    top: 5px; 
+}
+
+.bloque_2{
+    display: inline-block;
+    position: relative;
+    top:50px;
+    left: 650px;
+    font-size: 16pt;
+    width: 400px;
+    height: 600px;
+}

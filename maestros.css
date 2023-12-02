@@ -1,0 +1,339 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgEM{
+    position: relative;
+    left: 100px;
+}
+
+
+
+.MenuP{
+    background-color: #863232;
+    overflow: hidden;
+    text-align: center;
+    width:1750px;
+    height: 40px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+    padding: 10px 20px;
+    color: rgb(107, 106, 106);
+    transition: transform 0.5s;
+}
+
+.MenuP a{
+    color: rgb(209, 206, 206);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MenuP a:hover{
+    background-color: #9e5252;
+    transform: scale(1.2);
+}
+
+.titulo-1{
+    position:relative;
+    left:50px;
+}
+
+.maestro-img{
+    position:relative;
+    left:50px;
+    
+
+}
+
+.maestros-1{
+    position:relative;
+    left: 160px;
+    bottom: 120px;
+    
+}
+
+.maestro-img1{
+    position:relative;
+    left:700px;
+    bottom: 270px;
+}
+
+.maestros-2{
+    position:relative;
+    bottom: 390px;
+    left:820px;
+}
+
+.maestro-img2{
+    position:relative;
+    left:1300px;
+    bottom: 535px;
+
+}
+
+.maestros-3{
+    position:relative;
+    left:1420px;
+    bottom: 655px;
+}
+
+.titulo-2{
+    position:relative;
+    bottom: 555px;
+    left:50px;
+}
+
+.maestro-img3{
+    position:relative;
+    left:50px;
+    bottom: 555px;
+}
+
+.maestros-4{
+    position:relative;
+    left:160px;
+    bottom: 670px;
+}
+
+.maestro-img4{
+    position:relative;
+    left:700px;
+    bottom: 830px;
+
+}
+
+.maestros-5{
+    position:relative;
+    left:820px;
+    bottom: 950px;
+}
+
+.titulo-3{
+    position:relative;
+    left:50px;
+    bottom: 850px;
+}
+
+.maestro-img5{
+    position:relative;
+    left:50px;
+    bottom: 850px;
+}
+
+.maestros-6{
+    position:relative;
+    left:190px;
+    bottom: 950px;
+}
+
+.maestro-img6{
+    position:relative;
+    left:700px;
+    bottom: 1080px;
+
+}
+
+.maestros-7{
+    position:relative;
+    left:870px;
+    bottom: 1190px;
+}
+
+.maestro-img7{
+    position:relative;
+    left:1300px;
+    bottom: 1320px;
+}
+
+.maestros-8{
+    position:relative;
+    left: 1420px;
+    bottom: 1445px;
+}
+
+.titulo-4{
+    position:relative;
+    left:50px;
+    bottom: 1350px;
+}
+
+.maestro-img8{
+    position:relative;
+    left:50px;
+    bottom: 1350px; 
+}
+
+.maestros-9{
+    position:relative;
+    left:160px;
+    bottom: 1470px;
+}
+
+.maestro-img9{
+    position:relative;
+    left:700px;
+    bottom: 1610px;
+}
+
+.maestros-10{
+    position:relative;
+    left:820px;
+    bottom: 1740px;
+
+}
+
+.maestro-img10{
+    position:relative;
+    left:1290px;
+    bottom: 1890px;
+}
+
+.maestros-11{
+    position:relative;
+    left:1430px;
+    bottom: 2000px;
+}
+
+.maestro-img11{
+    position:relative;
+    left:50px;
+    bottom: 1950px; 
+}
+
+.maestros-12{
+    position:relative;
+    left:160px;
+    bottom: 2070px; 
+}
+
+.maestro-img12{
+    position:relative;
+    left:700px;
+    bottom: 2220px; 
+
+}
+
+.maestros-13{
+    position:relative;
+    left:820px;
+    bottom: 2340px;
+}
+
+.maestro-img13{
+    position:relative;
+    left:1300px;
+    bottom: 2480px;
+}
+
+.maestros-14{
+    position:relative;
+    left:1420px;
+    bottom: 2600px;
+}
+
+.titulo-5{
+    position:relative;
+    left:50px;
+    bottom: 2510px;
+}
+
+.maestro-img14{
+    position:relative;
+    left:50px;
+    bottom: 2510px;
+}
+
+.maestros-15{
+    position:relative;
+    left:160px;
+    bottom: 2630px;
+}
+.maestro-img15{
+    position:relative;
+    left:700px;
+    bottom: 2775px;
+}
+
+.maestros-16{
+    position:relative;
+    left:820px;
+    bottom: 2900px;
+}
+
+.titulo-6{
+    position:relative;
+    left:50px;
+    bottom: 2800px;
+}
+
+.maestro-img16{
+    position:relative;
+    left:40px;
+    bottom: 2800px;
+
+    
+}
+
+.maestros-17{
+    position:relative;
+    left:180px;
+    bottom: 2900px;
+}
+
+.maestro-img17{
+    position:relative;
+    left:680px;
+    bottom: 3030px;
+}
+
+.maestros-18{
+    position:relative;
+    left:820px;
+    bottom: 3140px;
+}
+
+.titulo-7{
+    position:relative;
+    left:50px;
+    bottom: 3050px;
+}
+
+.maestro-img18{
+    position:relative;
+    left:40px;
+    bottom: 3050px;
+}
+
+.maestros-19{
+    position:relative;
+    left:180px;
+    bottom: 3155px;
+}
+
+.maestro-img19{
+    position:relative;
+    left:680px;
+    bottom: 3285px;
+}
+
+.maestros-20{
+    position:relative;
+    left:820px;
+    bottom: 3400px;
+}
+
+.maestro-img20{
+    position:relative;
+    left:1300px;
+    bottom: 3510px;
+
+}
+.maestros-21{
+    left:1420px;
+    position:relative;
+    bottom: 3630px;
+}
+

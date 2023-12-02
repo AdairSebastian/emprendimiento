@@ -1,0 +1,37 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgEM{
+    position: relative;
+    left: 100px;
+}
+
+
+
+.MenuP{
+    background-color: #863232;
+    overflow: hidden;
+    text-align: center;
+    width:1750px;
+    height: 40px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+    padding: 10px 20px;
+    color: rgb(107, 106, 106);
+    transition: transform 0.5s;
+}
+
+.MenuP a{
+    color: rgb(209, 206, 206);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MenuP a:hover{
+    background-color: #9e5252;
+    transform: scale(1.2);
+}

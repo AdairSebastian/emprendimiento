@@ -1,0 +1,146 @@
+body{
+    font-family: 'Roboto', sans-serif;
+    
+}
+
+.imgEM{
+    position: relative;
+    bottom: 10px;
+    left: 100px;
+}
+
+.Empren-titu{
+    position: relative;
+    left: 630px;
+    top: 40px;
+    width: 980px;
+}
+
+.Empren-Text{
+    position: relative;
+    left: 630px;
+    top: 70px;
+    width: 980px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+
+
+}
+
+.Hist-titu{
+    position: relative;
+    left: 90px;
+    top: 100px;
+    width: 380px;
+    transition: transform 0.5s;
+    /* Aquí es donde se redondea el borde */
+    border-radius: 12px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+}
+.Hist-titu:hover {
+    transform: scale(1.2);
+  }
+
+.Hist-text{
+    position: relative;
+    left: 90px;
+    top: 150px;
+    width: 380px;
+    transition: transform 0.5s;
+    background-color: #a78d8d;
+    /* Aquí es donde se redondea el borde */
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+}
+.Hist-text:hover {
+    transform: scale(1.2);
+  }
+
+.Hist-text-2{
+    position: relative;
+    left: 90px;
+    top: 150px;
+    width: 500px;
+    transition: transform 0.5s;
+    background-color: #af9595;
+    /* Aquí es donde se redondea el borde */
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+}
+.Hist-text-2:hover {
+    transform: scale(1.2);
+  }
+
+  .Hist-text-3{
+    position: relative;
+    left: 90px;
+    top: 150px;
+    width: 680px;
+    transition: transform 0.5s;
+    background-color: #af9595;
+    /* Aquí es donde se redondea el borde */
+    border-radius: 10px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+}
+.Hist-text-3:hover {
+    transform: scale(1.2);
+  }
+
+.Object{
+    position: relative;
+    left: 985px;
+    bottom:190px;
+    width: 680px;
+}
+
+.Object-text{
+    position: relative;
+    left: 985px;
+    bottom:170px;
+    width: 680px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+}
+
+.ImfoMP{
+    position: absolute;
+    top:1185px;
+    left: 140px;
+}
+
+
+iframe{
+    position: absolute;
+    left: 140px;
+    top:1250px;
+    width:1550px;
+    height:500px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+ 
+}
+
+
+
+.MenuP{
+    background-color: #863232;
+    overflow: hidden;
+    text-align: center;
+    width:1750px;
+    height: 40px;
+    box-shadow: 0 8px 12px rgba(151, 11, 11, 0.356);
+    padding: 10px 20px;
+    color: rgb(107, 106, 106);
+    transition: transform 0.5s;
+}
+
+.MenuP a{
+    color: rgb(209, 206, 206);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.MenuP a:hover{
+    background-color: #9e5252;
+    transform: scale(1.2);
+}
